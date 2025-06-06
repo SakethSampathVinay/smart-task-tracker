@@ -1,0 +1,49 @@
+.tracker-container {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial;
+  padding: 20px;
+}
+
+.form input,
+.form select {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 12px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.high {
+  color: red;
+}
+
+.medium {
+  color: orange;
+}
+
+.low {
+  color: green;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.overdue {
+  background-color: #ffcccc;
+}
